@@ -1,18 +1,20 @@
 import React from 'react';
 import { Tile } from 'carbon-components-react';
+import './MenuItem.css';
 
-
-const MenuItem = () => (
+const MenuItem = props => (
   <Tile>
     <div className="menu-item">
-      <div className="menu-item__name">
-        Ceviche
+      <div className="menu-item__header">
+        <div className="menu-item__name">
+          {props.name}
+        </div>
+        <div className="menu-item__price">
+          {props.price}
+        </div>
       </div>
       <div className="menu-item__description">
-        Fish cooked in lime juice.
-      </div>
-      <div className="menu-item__price">
-        $14.99
+        {props.description}
       </div>
     </div>
   </Tile>

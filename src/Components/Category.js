@@ -1,27 +1,21 @@
 import React from 'react';
 import MenuItem from './MenuItem';
-import { AccordionItem } from 'carbon-components-react';
+import './Category.css';
 
-const Category = () => (
-  // <div className="menu-category">
-  //   <h3>Appetizers</h3>
-  //   <ul>
-  //     <li>
-  //       <Tile>
-  //         <MenuItem />
-  //       </Tile>
-  //       <Tile>
-  //         <MenuItem />
-  //       </Tile>
-  //       <Tile>
-  //         <MenuItem />
-  //       </Tile>
-  //     </li>
-  //   </ul>
-  // </div>
-  <AccordionItem title="Appetizers">
-      <MenuItem />
-  </AccordionItem>
+const Category = props => (
+  <div className="menu-category">
+    <h3 className="menu-category__name">{props.name}</h3>
+    <ul className="menu-category__list">
+    {
+      props.items.filter(item => item.category === props.name)
+      .map((item, index) =>
+        <li key={index} className="menu-category__list-item">
+          <MenuItem name={item.name} description={item.description} price={item.price} />
+        </li>
+      )
+    }
+    </ul>
+  </div>
 );
 
 export default Category;

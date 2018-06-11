@@ -1,21 +1,10 @@
-.App {
-}
-
-/* .App-logo {
-  height: 80px;
-} */
-
-.App-header {
-  background-color: #222;
-  padding: 20px;
-  color: white;
+.app__header {
+  background-color: #333;
+  padding: 20px 0;
   text-align: center;
+  color: #fff;
 }
 
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
+.app__title {
+  font-size: 3rem;
 }

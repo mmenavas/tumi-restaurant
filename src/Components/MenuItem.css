@@ -1,0 +1,25 @@
+.menu-item {
+
+}
+
+.menu-item__header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.menu-item__name {
+  flex: 1 1 80%;
+  font-size: 1.5rem;
+  padding: 4px 0;
+}
+
+.menu-item__price {
+  flex: 1 1 20%;
+  padding: 4px 0;
+  text-align: right;
+}
+
+.menu-item__description {
+  padding: 4px 0;
+}

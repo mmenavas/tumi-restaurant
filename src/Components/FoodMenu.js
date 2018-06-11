@@ -1,18 +1,22 @@
 import React from 'react';
 import Category from './Category';
-import { Accordion } from 'carbon-components-react';
+import './FoodMenu.css';
 
-const FoodMenu = () => (
+const FoodMenu = props => (
   <div className="food-menu">
-  <Accordion>
-    <Category />
-    <Category />
-    <Category />
-    <Category />
-    <Category />
-  </Accordion>
+    <h2 className="food-menu__title">
+      Menu
+    </h2>
+    <ul className="food-menu__list">
+      {
+        props.categories.map((category, index) =>
+          <li key={index} className="food-menu__list-item">
+            <Category name={category} items={props.items} />
+          </li>
+        )
+      }
+    </ul>
   </div>
-
 );
 
 export default FoodMenu;
