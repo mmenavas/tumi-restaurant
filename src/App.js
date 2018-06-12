@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import FoodMenu from './Components/FoodMenu';
 import './App.css';
+import logo from './logo.png';
 import firebase from './firebase.js';
 
 class App extends Component {
@@ -42,15 +43,15 @@ class App extends Component {
     return (
       <div className="app">
         <header className="app__header">
+          <div><img className="app__logo" src={logo} title="Tumi logo." /></div>
           <h1 className="app__title">Tumi Peruvian Cuisine</h1>
           <div className="app__info">
-            <p className="app__address">
-              961 W Ray Rd #3-4
-              Chandler, AZ 85225
-            </p>
-            <p className="app__phone-number">
-              (480) 821-1717
-            </p>
+            <div>
+              <a className="app__address" href="https://goo.gl/maps/tfQVasTG55J2" title="View map.">961 W Ray Rd #3-4 Chandler, AZ 85225</a>
+            </div>
+            <div>
+              <a className="app__phone-number" href="tel:+14808211717">(480) 821-1717</a>
+            </div>
           </div>          
         </header>
         <FoodMenu categories={this.state.categories} items={this.state.items} />

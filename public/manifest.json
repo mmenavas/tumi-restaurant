@@ -1,7 +1,7 @@
 {
   "short_name": "Tumi Restaurant",
   "name": "Tumi Peruvian Cuisine",
-  "icons":  "icons": [
+  "icons": [
     {
      "src": "\/android-icon-36x36.png",
      "sizes": "36x36",
