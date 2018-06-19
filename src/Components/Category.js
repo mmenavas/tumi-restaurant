@@ -7,10 +7,14 @@ const Category = props => (
     <h3 className="menu-category__name">{props.name}</h3>
     <ul className="menu-category__list">
     {
-      props.items.filter(item => item.category === props.name)
+      props.items.filter(item => item['Category'] === props.id)
       .map((item, index) =>
         <li key={index} className="menu-category__list-item">
-          <MenuItem name={item.name} description={item.description} price={item.price} />
+          <MenuItem
+            name={item['Name']}
+            description={item['Description']}
+            price={item['Price']}
+          />
         </li>
       )
     }

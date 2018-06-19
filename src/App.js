@@ -15,28 +15,40 @@ class App extends Component {
   }
 
   componentDidMount() {
-    const itemsRef = firebase.database().ref('Menu');
-    itemsRef.on('value', (snapshot) => {
-      let categories = snapshot.val();
-      let newCategories = [];
-      let newItems = [];
-
-      for (let category in categories) {
-        newCategories.push(category);
-        for (let menuItem in categories[category]) {
-          newItems.push({
-            name: menuItem,
-            description: categories[category][menuItem]['Description'],
-            price: categories[category][menuItem]['Price'],
-            category: category
-          });
-        }
-      }
-      this.setState({
-        categories: newCategories,
-        items: newItems
+    let _this = this;
+    
+    // Fetch and sort categories.
+    firebase.database().ref('categories').once('value').then((snapshot) => {
+      const categories = snapshot.val();
+      let newCategories = _this.sortItemsByWeight(categories);
+      _this.setState({
+        categories: newCategories
       });
     });
+
+    // Fetch and sort menu items.    
+    firebase.database().ref('menu-items').once('value').then((snapshot) => {
+      const menuItems = snapshot.val();
+      let newMenuItems = _this.sortItemsByWeight(menuItems);
+
+      _this.setState({
+        items: newMenuItems
+      });
+    });
+
+  }
+
+  sortItemsByWeight(items) {
+    let newItems = [];
+    for (let item in items) {
+      let newItem = items[item];
+      newItem['Id'] = item;
+      newItems.push(newItem);
+    }
+    newItems.sort((a,b) => {
+        return a['Weight'] - b['Weight'];
+    });
+    return newItems;
   }
 
   render() {

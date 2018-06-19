@@ -11,7 +11,7 @@ const FoodMenu = props => (
       {
         props.categories.map((category, index) =>
           <li key={index} className="food-menu__list-item">
-            <Category name={category} items={props.items} />
+            <Category name={category['Name']} id={category['Id']} items={props.items} />
           </li>
         )
       }
