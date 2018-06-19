@@ -1,0 +1,58 @@
+{
+  "appetizers" : {
+    "Name" : "Appetizers",
+    "Weight" : 1
+  },
+  "soups" : {
+    "Name" : "Soups",
+    "Weight" : 2
+  },
+  "specialties" : {
+    "Name" : "Specialties",
+    "Weight" : 3
+  },
+  "ceviches" : {
+    "Name" : "Ceviches",
+    "Weight" : 4
+  },
+  "seafood" : {
+    "Name" : "From the Sea",
+    "Weight" : 5
+  },
+  "fried-rice" : {
+    "Name" : "Fried Rice",
+    "Weight" : 6
+  },
+  "saltados" : {
+    "Name" : "Saltados",
+    "Weight" : 7
+  },
+  "stir-fry-linguine" : {
+    "Name" : "Stir-Fry Linguine",
+    "Weight" : 1
+  },
+  "rotisserie-chicken" : {
+    "Name" : "Rotisserie Chicken",
+    "Weight" : 8
+  },
+  "children-menu" : {
+    "Name" : "For Our Children",
+    "Weight" : 9
+  },
+  "desserts" : {
+    "Name" : "Desserts",
+    "Weight" : 10
+  },
+  "sides" : {
+    "Name" : "Sides",
+    "Weight" : 11
+  },
+  "soft-drinks" : {
+    "Name" : "Soft Drinks",
+    "Weight" : 12
+  },
+  "beverages" : {
+    "Name" : "Beverages",
+    "Weight" : 13
+  }
+}
