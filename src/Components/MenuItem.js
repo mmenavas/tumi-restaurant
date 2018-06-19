@@ -13,7 +13,7 @@ const MenuItem = props => (
           {props.price}
         </div>
       </div>
-      <div className="menu-item__description">
+      <div className={"menu-item__description" + (!props.showDescription ? " hide" : "")}>
         {props.description}
       </div>
     </div>

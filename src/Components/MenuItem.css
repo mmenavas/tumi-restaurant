@@ -23,8 +23,8 @@
   line-height: 1.5rem;
 }
 
-@media screen and (min-width: 616px) {
+/* @media screen and (min-width: 616px) {
   .menu-item {
     min-height: 250px;
   }
-}
+} */

@@ -14,6 +14,7 @@ const Category = props => (
             name={item['Name']}
             description={item['Description']}
             price={item['Price']}
+            showDescription={props.showDescription}
           />
         </li>
       )

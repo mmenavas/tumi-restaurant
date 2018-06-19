@@ -9,6 +9,9 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
+      category: '',
+      keyword: '',
+      showDescription: false,
       categories: [], 
       items: []
     }
@@ -51,11 +54,14 @@ class App extends Component {
     return newItems;
   }
 
+  toggleShowDescription = () =>
+    this.setState({showDescription: !this.state.showDescription});
+
   render() {
     return (
       <div className="app">
         <header className="app__header">
-          <div><img className="app__logo" src={logo} title="Tumi logo." /></div>
+          <div><img className="app__logo" src={logo} title="Tumi logo." alt="Tumi"/></div>
           <h1 className="app__title">Tumi Peruvian Cuisine</h1>
           <div className="app__info">
             <div>
@@ -66,7 +72,12 @@ class App extends Component {
             </div>
           </div>          
         </header>
-        <FoodMenu categories={this.state.categories} items={this.state.items} />
+        <FoodMenu
+          categories={this.state.categories}
+          items={this.state.items}
+          showDescription={this.state.showDescription}
+          toggleShowDescription={this.toggleShowDescription}
+        />
       </div>
     );
   }
