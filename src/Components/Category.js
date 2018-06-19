@@ -7,7 +7,9 @@ const Category = props => (
     <h3 className="menu-category__name">{props.name}</h3>
     <ul className="menu-category__list">
     {
-      props.items.filter(item => item['Category'] === props.id)
+      props.items
+      .filter(item => item['Category'] === props.id)
+      .filter(item => item['Name'].toLowerCase().includes(props.keywords.toLowerCase()) || item['Description'].toLowerCase().includes(props.keywords.toLowerCase()))
       .map((item, index) =>
         <li key={index} className="menu-category__list-item">
           <MenuItem

@@ -11,5 +11,37 @@
 }
 
 .food-menu__filters {
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.menu__description-control,
+.menu__keyword-filter {
+  box-sizing: border-box; 
+  padding: 10px 2px;
+  width: 100%;
+}
+
+
+@media screen and (min-width: 616px) {
+  .food-menu__filters {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1216px) {
+  .food-menu__filters {
+    max-width: 1200px;
+  }
+  .menu__description-control,
+  .menu__keyword-filter {
+    max-width: 600px;
+    padding:8px;
+
+  }
+  .menu__description-control {
+    padding-top:36px;
+  }
 }

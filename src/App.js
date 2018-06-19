@@ -10,7 +10,7 @@ class App extends Component {
     super();
     this.state = {
       category: '',
-      keyword: '',
+      keywords: '',
       showDescription: false,
       categories: [], 
       items: []
@@ -54,8 +54,11 @@ class App extends Component {
     return newItems;
   }
 
-  toggleShowDescription = () =>
+  handleToggleDescription = () =>
     this.setState({showDescription: !this.state.showDescription});
+
+  handleKeywordSearch = (keywords) =>
+    this.setState({keywords: keywords});
 
   render() {
     return (
@@ -76,7 +79,9 @@ class App extends Component {
           categories={this.state.categories}
           items={this.state.items}
           showDescription={this.state.showDescription}
-          toggleShowDescription={this.toggleShowDescription}
+          keywords={this.state.keywords}
+          toggleShowDescription={this.handleToggleDescription}
+          searchByKeywords={this.handleKeywordSearch}
         />
       </div>
     );
