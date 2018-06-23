@@ -11,13 +11,15 @@ const FoodMenu = props => (
     </h2>
     <div className="food-menu__filters">
       <div className="menu__keyword-filter">
-        <TextInput
-          light
-          id="keyword-filter"
-          labelText="Search"
-          onChange={e => props.searchByKeywords(e.target.value)}
-          placeholder="Enter a keyword (e.g. potatoes)"
-        />
+        <form onSubmit={e => props.submitForm(e)}>
+          <TextInput
+            light
+            id="keyword-filter"
+            labelText="Search"
+            onChange={e => props.searchByKeywords(e.target.value)}
+            placeholder="Enter a keyword (e.g. potatoes)"
+          />
+        </form>
       </div>
       <div className="menu__description-control">
         <Checkbox

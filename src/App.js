@@ -60,6 +60,10 @@ class App extends Component {
   handleKeywordSearch = (keywords) =>
     this.setState({keywords: keywords});
 
+  handleFormSubmit = (e) => {
+    e.preventDefault();
+  }
+
   render() {
     return (
       <div className="app">
@@ -82,6 +86,7 @@ class App extends Component {
           keywords={this.state.keywords}
           toggleShowDescription={this.handleToggleDescription}
           searchByKeywords={this.handleKeywordSearch}
+          submitForm={this.handleFormSubmit}
         />
       </div>
     );
