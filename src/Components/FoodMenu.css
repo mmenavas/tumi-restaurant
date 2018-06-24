@@ -11,6 +11,7 @@
 }
 
 .food-menu__filters {
+  margin-top: 20px; 
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -27,7 +28,8 @@
 @media screen and (min-width: 616px) {
   .food-menu__filters {
     max-width: 600px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -40,8 +42,5 @@
     max-width: 600px;
     padding:8px;
 
-  }
-  .menu__description-control {
-    padding-top:36px;
   }
 }
