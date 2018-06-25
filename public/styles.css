@@ -40,3 +40,16 @@ body {
   color: #fff;
   background-color: #E6B850;
 }
+
+.app__content {
+  padding-top: 20px; 
+  max-width: 616px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1216px) {
+  .app__content {
+    max-width: 1216px;
+  }
+  
+}
