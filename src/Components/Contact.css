@@ -1,0 +1,17 @@
+.contact {
+  max-width:960px;
+  margin: 0 auto;
+}
+
+.contact__info {
+  margin-top: 40px;
+}
+
+.contact__hours li {
+  margin-bottom: 8px;
+}
+
+.contact__phone p,
+.contact__address p {
+  margin-bottom: 8px;
+} 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import firebase from '../firebase.js';
-import { Tile } from 'carbon-components-react';
+import Event from './Event';
 import './Events.css';
 
 class Events extends Component {
@@ -39,18 +39,12 @@ class Events extends Component {
         .filter(event => event['Active'])
         .map((event, index) =>
           <li key={index} className="events__list-item">
-            <Tile>
-              <h3 className="events__name">{event['Name']}</h3>
-              <ul>
-                <li className="events__date"><strong>Date:</strong> {event['Date']}</li>
-                <li className="events__time"><strong>Time:</strong> {event['Time']}</li>
-              </ul>
-              <img className ="events__flyer"
-                src={event['Flyer']}
-                alt=""
-                title=""
-              />
-            </Tile>
+            <Event
+              name={event['Name']}
+              date={event['Date']}
+              time={event['Time']}
+              flyer={event['Flyer']}
+            />
           </li>
         )
       }

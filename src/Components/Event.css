@@ -1,0 +1,14 @@
+.event__name {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.event__date, 
+.event__time {
+  margin: 20px 0;
+  font-size: 1rem;
+}
+
+.event__flyer {
+  width:100%;
+}
