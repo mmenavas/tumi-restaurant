@@ -4,6 +4,7 @@ import { Tab } from 'carbon-components-react';
 import FoodMenu from './Components/FoodMenu';
 import Events from './Components/Events';
 import Contact from './Components/Contact';
+import Hours from './Components/Hours';
 import './App.css';
 
 const App = props => (
@@ -13,6 +14,9 @@ const App = props => (
     </Tab>
     <Tab label="Events">
       <Events />
+    </Tab>
+    <Tab label="Hours">
+      <Hours />
     </Tab>
     <Tab label="Contact">
       <Contact />

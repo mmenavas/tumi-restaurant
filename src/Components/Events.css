@@ -7,3 +7,12 @@
   margin-top: 40px;
 }
 
+.events__list-item {
+  padding: 2px;
+}
+
+@media screen and (min-width: 616px) {
+  .events__list-item {
+    padding: 4px;
+  }
+}

@@ -1,25 +1,19 @@
-.contact {
+.hours {
   max-width:960px;
   margin: 0 auto;
 }
 
-.contact__info {
+.hours__info {
   margin-top: 40px;
-}
-
-.contact__phone,
-.contact__address {
   padding: 2px;
 }
 
-.contact__phone p,
-.contact__address p {
+.hours li {
   margin-bottom: 8px;
 }
 
 @media screen and (min-width: 616px) {
-  .contact__phone,
-  .contact__address {
+  .hours__info {
     padding: 4px;
   }
 }
