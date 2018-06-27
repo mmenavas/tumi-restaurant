@@ -9,22 +9,20 @@ const Contact = props => (
       Contact
     </h2>
     <div className="contact__info">
-      <div className="contact__phone">
-        <Tile>
-
+      <Tile>
+        <p><strong>Tumi Restaurant</strong> is brought to you by <strong>Cocina Latina, LLC</strong>.</p>
+        <div className="contact__phone">
           <h3 className="tile-title">Phone</h3>
           <p>(480) 821-1717</p>
           <Button small href="tel:+14808211717">Call now</Button>
-        </Tile>
-      </div>
-      <div className="contact__address">
-        <Tile>
-          <h3 className="tile-title">Address</h3>
+        </div>
+        <div className="contact__address">
+          <h3 className="contact__address tile-title">Address</h3>
           <p>961 W Ray Rd #3-4 <br />
             Chandler, AZ 85225 </p>
           <Button small href="https://goo.gl/maps/mNxfhfpvRo12">Open map</Button>
-        </Tile>
-      </div>
+        </div>
+      </Tile>
     </div>
   </div>
 );

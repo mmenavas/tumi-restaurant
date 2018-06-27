@@ -5,11 +5,12 @@
 
 .contact__info {
   margin-top: 40px;
+  padding: 2px;
 }
 
 .contact__phone,
 .contact__address {
-  padding: 2px;
+  margin-top: 20px;
 }
 
 .contact__phone p,
@@ -18,8 +19,7 @@
 }
 
 @media screen and (min-width: 616px) {
-  .contact__phone,
-  .contact__address {
+  .contact__info {
     padding: 4px;
   }
 }
