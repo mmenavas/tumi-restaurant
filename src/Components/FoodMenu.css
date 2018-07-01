@@ -9,11 +9,21 @@
   flex-direction: row;
 }
 
-.menu__description-control,
-.menu__keyword-filter {
+.food-menu__categories-control,
+.food-menu__description-control,
+.food-menu__keyword-filter,
+.food-menu__count {
   box-sizing: border-box; 
   padding: 10px 2px;
   width: 100%;
+}
+
+@media screen and (min-width: 420px) {
+  .food-menu__categories-control,
+  .food-menu__description-control {
+    width: 50%;
+    max-width: 240px;
+  }
 }
 
 @media screen and (min-width: 616px) {
@@ -28,10 +38,9 @@
   .food-menu__filters {
     max-width: 1200px;
   }
-  .menu__description-control,
-  .menu__keyword-filter {
+  
+  .food-menu__keyword-filter {
     max-width: 600px;
     padding:8px;
-
   }
 }

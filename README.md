@@ -1,13 +1,12 @@
 ## TUMI RESTAURANT - Website
 
 ### TODO:
-- ~~Order categories by importance. (In progress)~~
-- ~~Order menu items by importance. (In progress)~~
+- ~~Order categories by importance.~~
+- ~~Order menu items by importance.~~
 - ~~Provide keyword filter~~
-- ~~Improve UX for keyword filter (Use form to and submit button to hide android keyboard on submit)~~
+- ~~Improve UX for keyword filter in mobile devices~~
 - ~~Add description and keywords metatags~~
-- Provide Category filter #important
-- Display search results counter #important
-- Add photos.
-- Add About section.
+- ~~Provide Category filter~~
+- ~~Display search results counter~~
+- Render React on the server.
 - Build backend.
