@@ -1,0 +1,610 @@
+{
+  "categories" : {
+    "appetizers" : {
+      "Name" : "Appetizers",
+      "Weight" : 1
+    },
+    "beverages" : {
+      "Name" : "Beverages",
+      "Weight" : 14
+    },
+    "ceviches" : {
+      "Name" : "Ceviches",
+      "Weight" : 4
+    },
+    "children-menu" : {
+      "Name" : "For Our Children",
+      "Weight" : 10
+    },
+    "desserts" : {
+      "Name" : "Desserts",
+      "Weight" : 11
+    },
+    "fried-rice" : {
+      "Name" : "Fried Rice",
+      "Weight" : 6
+    },
+    "rotisserie-chicken" : {
+      "Name" : "Rotisserie Chicken",
+      "Weight" : 9
+    },
+    "saltados" : {
+      "Name" : "Saltados",
+      "Weight" : 7
+    },
+    "seafood" : {
+      "Name" : "From the Sea",
+      "Weight" : 5
+    },
+    "sides" : {
+      "Name" : "Sides",
+      "Weight" : 12
+    },
+    "soft-drinks" : {
+      "Name" : "Soft Drinks",
+      "Weight" : 13
+    },
+    "soups" : {
+      "Name" : "Soups",
+      "Weight" : 2
+    },
+    "specialties" : {
+      "Name" : "Specialties",
+      "Weight" : 3
+    },
+    "stir-fry-linguine" : {
+      "Name" : "Stir-Fry Linguine",
+      "Weight" : 8
+    }
+  },
+  "events" : {
+    "28-julio-2018" : {
+      "Active" : true,
+      "Date" : "Saturday, July 28th, 2018",
+      "Flyer" : "https://firebasestorage.googleapis.com/v0/b/tumi-restaurant.appspot.com/o/events%2FJuly-28-2018.jpg?alt=media&token=9bb56f03-94e2-4b53-98bc-20fffb249d2d",
+      "Name" : "Peru's Independence Day",
+      "Time" : "9:00pm"
+    }
+  },
+  "menu-items" : {
+    "aguadito-de-pollo" : {
+      "Category" : "soups",
+      "Description" : "A traditional cilantro based chicken soup with rice, peas and carrots.",
+      "Name" : "Aguadito de Pollo",
+      "Price" : 6.95,
+      "Weight" : 1
+    },
+    "aji-de-gallina" : {
+      "Category" : "specialties",
+      "Description" : "Chicken breast stew made with Peruvian yellow pepper cream, ground parmesan cheeseand nuts, topped with grated parmesan cheese, olives, egg sliced and white rice. * This dish contains peanuts.",
+      "Name" : "Aji de Gallina",
+      "Price" : 12.95,
+      "Weight" : 1
+    },
+    "alfajores" : {
+      "Category" : "desserts",
+      "Description" : "Round sweet bísquets joined together with milk caramel.",
+      "Name" : "Alfajores",
+      "Price" : 4.95,
+      "Weight" : 1
+    },
+    "anticuchos" : {
+      "Category" : "appetizers",
+      "Description" : "Three grilled beef heart skewers, marinated in light vinegar and Peruvian spices. Served with choclo (Peruvian corn) and papa dorada (Golden brown potatoes).",
+      "Name" : "Anticuchos",
+      "Price" : 9.95,
+      "Weight" : 1
+    },
+    "arroz-con-mariscos" : {
+      "Category" : "seafood",
+      "Description" : "The Paella or Jambalaya Peruvian version, made with crab, shrimps, clams, mussel, calamari, scallops and octopus. Served with a side of salsa criolla (Good for two).",
+      "Name" : "Arroz con Mariscos",
+      "Price" : 20.95,
+      "Weight" : 1
+    },
+    "cafe" : {
+      "Category" : "soft-drinks",
+      "Description" : "American coffee.",
+      "Name" : "Cafe",
+      "Price" : 2.95,
+      "Weight" : 10
+    },
+    "cau-cau" : {
+      "Category" : "specialties",
+      "Description" : "Honeycomb beef tripe on Peruvian yellow pepper and turmeric sauce mixed with potatoescubed, mint mignonette, and served with white rice.",
+      "Name" : "Cau Cau",
+      "Price" : 12.95,
+      "Weight" : 2
+    },
+    "cau-cau-de-mariscos" : {
+      "Category" : "seafood",
+      "Description" : "Seafood (shrimp, clams, calamari, scallops, octopus, and mussel) on Peruvian yellow pepper and turmeric sauce, mixed with potatoes, cubed mint mignonette and served with white rice.",
+      "Name" : "Cau Cau de Mariscos",
+      "Price" : 17.95,
+      "Weight" : 2
+    },
+    "causa-de-camaron" : {
+      "Category" : "appetizers",
+      "Description" : "Two layers of mashed potatoes seasoned with lime and Peruvian yellow pepper filled with Peruvian shrimp salad.",
+      "Name" : "Causa de Camaron",
+      "Price" : 11.95,
+      "Weight" : 2
+    },
+    "causa-de-pollo" : {
+      "Category" : "appetizers",
+      "Description" : "Two layers of mashed potatoes seasoned with lime and Peruvian yellow pepper filled with Peruvian chicken breast salad.",
+      "Name" : "Causa de Pollo",
+      "Price" : 8.95,
+      "Weight" : 3
+    },
+    "ceviche-de-camarones" : {
+      "Category" : "ceviches",
+      "Description" : "Precook shrimp marinated in fresh lime juice and a blend of Peruvian spices. Served with lettuce, yam, Peruvian Corn and Juliana onions on the top.",
+      "Name" : "Ceviche de Camarones",
+      "Price" : 18.95,
+      "Weight" : 3
+    },
+    "ceviche-de-pescado" : {
+      "Category" : "ceviches",
+      "Description" : "Raw Premium white fish marinated in fresh lime juice with a blend of Peruvian spices and a touch of Rocoto pepper. Served with lettuce, yam, Peruvian Corn and Juliana onions on the top. * Eating raw or undercook food may increase your risk of food borne illness.",
+      "Name" : "Ceviche de Pescado",
+      "Price" : 14.95,
+      "Weight" : 1
+    },
+    "ceviche-mixto" : {
+      "Category" : "ceviches",
+      "Description" : "Let your imagination go wild. Fresh white fish, shrimp, scallops, octopus, calamari, mussel marinated with fresh lime juice, with a blend of Peruvian spices and a touch of rocoto pepper. Served with lettuce, yam, Peruvian Corn and Juliana onions. * Eating raw or undercook food may increase your risk of food borne illness.",
+      "Name" : "Ceviche Mixto",
+      "Price" : 17.95,
+      "Weight" : 2
+    },
+    "chaufa-de-camaron" : {
+      "Category" : "fried-rice",
+      "Description" : "Traditional Peruvian-Chinese style fried rice with shrimp, eggs, and green onions. Cooked with soy sauce and garlic.",
+      "Name" : "Chaufa de Camaron",
+      "Price" : 17.95,
+      "Weight" : 1
+    },
+    "chaufa-de-carne" : {
+      "Category" : "fried-rice",
+      "Description" : "Traditional Peruvian-Chinese style fried rice with premium loin strips, eggs, green onions. Cooked with soy sauce and garlic.",
+      "Name" : "Chaufa de Carne",
+      "Price" : 13.95,
+      "Weight" : 2
+    },
+    "chaufa-de-hot-dog" : {
+      "Category" : "children-menu",
+      "Description" : "Traditional Peruvian-Chinese style fried rice with sliced hot dog, eggs, green onions cooked with soy sauce and garlic.",
+      "Name" : "Chaufa de Hot Dog",
+      "Price" : 6.95,
+      "Weight" : 1
+    },
+    "chaufa-de-pollo" : {
+      "Category" : "fried-rice",
+      "Description" : "Traditional Peruvian-Chinese style fried rice with chicken breast, eggs, and green onions. Cooked with soy sauce and garlic.",
+      "Name" : "Chaufa de Pollo",
+      "Price" : 11.95,
+      "Weight" : 3
+    },
+    "chicha-morada" : {
+      "Category" : "soft-drinks",
+      "Description" : "Peruvian purple corn drink.",
+      "Name" : "Chicha Morada",
+      "Price" : 2.5,
+      "Weight" : 1
+    },
+    "choclo-con-queso" : {
+      "Category" : "appetizers",
+      "Description" : "Peruvian Corn from the Andes on the cob served with Queso Fresco and Huancaina sauce.",
+      "Name" : "Choclo con Queso",
+      "Price" : 9.95,
+      "Weight" : 4
+    },
+    "chupe-de-camarones" : {
+      "Category" : "soups",
+      "Description" : "A traditional Andean Peruvian soup, made with shrimps, oregano, milk, egg, and herbs.",
+      "Name" : "Chupe de Camarones",
+      "Price" : 19.95,
+      "Weight" : 2
+    },
+    "crema-volteada" : {
+      "Category" : "desserts",
+      "Description" : "Caramel Flan Peruvian Style",
+      "Name" : "Crema Volteada",
+      "Price" : 5.95,
+      "Weight" : 2
+    },
+    "diet-inca-kola" : {
+      "Category" : "soft-drinks",
+      "Description" : "",
+      "Name" : "Diet Inca Kola",
+      "Price" : 3.0,
+      "Weight" : 6
+    },
+    "domestic-beer" : {
+      "Category" : "beverages",
+      "Description" : "Bud Light, Coors Lite, Miller Lite.",
+      "Name" : "Domestic Beer",
+      "Price" : 3.5,
+      "Weight" : 1
+    },
+    "french-fries" : {
+      "Category" : "sides",
+      "Description" : "",
+      "Name" : "French Fries",
+      "Price" : 2.95,
+      "Weight" : 1
+    },
+    "fried-rice" : {
+      "Category" : "sides",
+      "Description" : "",
+      "Name" : "Fried Rice",
+      "Price" : 3.95,
+      "Weight" : 2
+    },
+    "half-chicken-dine-in" : {
+      "Category" : "rotisserie-chicken",
+      "Description" : "Our chicken is marinated with 12 unique spices based on the ancient recipe of the ‘Kankacho Andino’. All servings include 2 items: rice, french fries, beans or salad.",
+      "Name" : "Half Chicken (dine in)",
+      "Price" : 12.95,
+      "Weight" : 3
+    },
+    "half-chicken-to-go" : {
+      "Category" : "rotisserie-chicken",
+      "Description" : "",
+      "Name" : "Half Chicken (to go)",
+      "Price" : 10.95,
+      "Weight" : 4
+    },
+    "helado-de-lucuma" : {
+      "Category" : "desserts",
+      "Description" : "Traditional Peruvian ice cream made from a native Peruvian fruit called, Lucuma.",
+      "Name" : "Helado de Lucuma",
+      "Price" : 5.95,
+      "Weight" : 3
+    },
+    "huancaina-sauce" : {
+      "Category" : "sides",
+      "Description" : "",
+      "Name" : "Huancaina Sauce",
+      "Price" : 3.95,
+      "Weight" : 3
+    },
+    "imported-beer" : {
+      "Category" : "beverages",
+      "Description" : "Modelo Especial, Heineken, Corona Extra, Dos Equis.",
+      "Name" : "Imported Beer",
+      "Price" : 4.0,
+      "Weight" : 2
+    },
+    "inca-kola" : {
+      "Category" : "soft-drinks",
+      "Description" : "Traditional Peruvian soda.",
+      "Name" : "Inca Kola",
+      "Price" : 2.5,
+      "Weight" : 5
+    },
+    "inca-kola-family-size" : {
+      "Category" : "soft-drinks",
+      "Description" : "2 Liters.",
+      "Name" : "Inca Kola Family Size",
+      "Price" : 6.95,
+      "Weight" : 7
+    },
+    "infusiones" : {
+      "Category" : "soft-drinks",
+      "Description" : "Tea, chamomille, etc.",
+      "Name" : "Infusiones",
+      "Price" : 2.95,
+      "Weight" : 11
+    },
+    "jalea-tumi" : {
+      "Category" : "seafood",
+      "Description" : "Fried fish strips topped with salsa criolla and sauté with crab, shrimps, clams, mussel, calamari, scallops and octopus, served with fried yucca (cassava) and Tostones (Good for two).",
+      "Name" : "Jalea Tumi",
+      "Price" : 22.95,
+      "Weight" : 3
+    },
+    "jarra-de-chicha-morada" : {
+      "Category" : "soft-drinks",
+      "Description" : "Pitcher size.",
+      "Name" : "Jarra de Chicha Morada",
+      "Price" : 7.95,
+      "Weight" : 2
+    },
+    "jarra-de-maracuya" : {
+      "Category" : "soft-drinks",
+      "Description" : "Pitcher size.",
+      "Name" : "Jarra de Maracuya",
+      "Price" : 7.95,
+      "Weight" : 4
+    },
+    "kola-inglesa" : {
+      "Category" : "soft-drinks",
+      "Description" : "",
+      "Name" : "Kola Inglesa",
+      "Price" : 3.0,
+      "Weight" : 8
+    },
+    "lomo-al-caballo" : {
+      "Category" : "saltados",
+      "Description" : "Premium beef loin strips sauté with onions, tomatoes, cilantro mignonette and secret ingredients mixed with French fries, and served with white rice, fried sweet plantains, and sunny side up egg. Upgrade to fillet mignon for an additional $5.",
+      "Name" : "Lomo al Caballo",
+      "Price" : 16.95,
+      "Weight" : 2
+    },
+    "lomo-saltado" : {
+      "Category" : "saltados",
+      "Description" : "Premium beef loin strips sauté in a fiery wok, with onions, tomatoes, cilantro mignonette and secret ingredients mixed with French fries, and served with white rice. Upgrade to fillet mignon for an additional $5.",
+      "Name" : "Lomo Saltado",
+      "Price" : 14.95,
+      "Weight" : 1
+    },
+    "maiz-chulpe" : {
+      "Category" : "sides",
+      "Description" : "Andean toasted chulpe corn (first one free).",
+      "Name" : "Maiz Chulpe (cancha)",
+      "Price" : 2.95,
+      "Weight" : 4
+    },
+    "maracuya" : {
+      "Category" : "soft-drinks",
+      "Description" : "Passion fruit drink",
+      "Name" : "Maracuya",
+      "Price" : 2.5,
+      "Weight" : 3
+    },
+    "orgia-de-mariscos" : {
+      "Category" : "ceviches",
+      "Description" : "Same as Ceviche Mixto, but marinated in Pisco, fresh lime juice and served with Tostones too. This will be an unforgettable experience.",
+      "Name" : "Orgia de Mariscos",
+      "Price" : 19.95,
+      "Weight" : 4
+    },
+    "papa-a-la-huancaina" : {
+      "Category" : "appetizers",
+      "Description" : "Creamy cheese sauce with Peruvian yellow pepper over sliced boiled potatoes.",
+      "Name" : "Papa a la Huancaina",
+      "Price" : 8.95,
+      "Weight" : 6
+    },
+    "papa-rellena" : {
+      "Category" : "appetizers",
+      "Description" : "Mashed potatoes stuffed with seasoned ground beef loin, hard-boiled eggs, onion, black olives, raisin; and then deep fried. Served with Peruvian yellow pepper sauce.",
+      "Name" : "Papa Rellena",
+      "Price" : 8.95,
+      "Weight" : 5
+    },
+    "parihuela" : {
+      "Category" : "soups",
+      "Description" : "A fisherman’s stew made with fish, calamari, mussels, clams, scallops, shrimp, octopus, and crab legs cooked with white wine and blend of Peruvian spices -(It will bring you back to life).",
+      "Name" : "Parihuela",
+      "Price" : 22.95,
+      "Weight" : 3
+    },
+    "pescado-a-la-chorrillana" : {
+      "Category" : "seafood",
+      "Description" : "Fish fillet fried covered with onions, tomatoes, cilantro mignonette and secret ingredients. Served with fried yucca (cassava) and white rice.",
+      "Name" : "Pescado a la Chorrillana",
+      "Price" : 13.95,
+      "Weight" : 4
+    },
+    "pescado-a-lo-macho" : {
+      "Category" : "seafood",
+      "Description" : "Fish fillet fried covered with a mixed seafood spice sauce (shrimp, calamari, scallops, octopus, and mussel). Served with fried yucca (cassava) and white rice.",
+      "Name" : "Pescado a lo Macho",
+      "Price" : 18.95,
+      "Weight" : 5
+    },
+    "picante-de-mariscos" : {
+      "Category" : "seafood",
+      "Description" : "Shrimps, clams, mussel, calamari, scallops and octopus, covered with Yellow Pepper sauce or Rocoto (Red Hot Chile) sauce. Served with fried yucca (cassava), Peruvian corn and white rice.",
+      "Name" : "Picante de Mariscos",
+      "Price" : 17.95,
+      "Weight" : 6
+    },
+    "picarones" : {
+      "Category" : "desserts",
+      "Description" : "Squash and sweet potato served in a doughnut form and covered with Syrup made from Chancaca (solidified molasses).",
+      "Name" : "Picarones",
+      "Price" : 6.95,
+      "Weight" : 4
+    },
+    "piscos" : {
+      "Category" : "beverages",
+      "Description" : "Pisco is colorless or yellowish-to-amber colored brandy, produced in winemaking regions of Peru. It is made by distilling fermented grape juice into a high-proof spirit. The following mixed drinks are offered at Tumi: Pisco Sour, Pisco Maracuya, Chilcano, and Pisco Mule.",
+      "Name" : "Piscos",
+      "Price" : 8.5,
+      "Weight" : 5
+    },
+    "platano-frito" : {
+      "Category" : "sides",
+      "Description" : "Fried plantain.",
+      "Name" : "Platano Frito",
+      "Price" : 5.95,
+      "Weight" : 5
+    },
+    "pollipapas" : {
+      "Category" : "children-menu",
+      "Description" : "Chicken nuggets and Golden Fried potatoes.",
+      "Name" : "Pollipapas",
+      "Price" : 5.95,
+      "Weight" : 2
+    },
+    "pollo-saltado" : {
+      "Category" : "saltados",
+      "Description" : "Chicken breast sauté with onions, tomatoes, cilantro mignonette and secret ingredients mixed with French fries, and served with white rice.",
+      "Name" : "Pollo Saltado",
+      "Price" : 12.95,
+      "Weight" : 3
+    },
+    "quarter-chicken-dine-in" : {
+      "Category" : "rotisserie-chicken",
+      "Description" : "Our chicken is marinated with 12 unique spices based on the ancient recipe of the ‘Kankacho Andino’. All servings include 2 items: rice, french fries, beans or salad.",
+      "Name" : "Quarter Chicken (dine in)",
+      "Price" : 8.95,
+      "Weight" : 5
+    },
+    "quarter-chicken-to-go" : {
+      "Category" : "rotisserie-chicken",
+      "Description" : "",
+      "Name" : "Quarter Chicken (to go)",
+      "Price" : 7.95,
+      "Weight" : 6
+    },
+    "red-wine" : {
+      "Category" : "beverages",
+      "Description" : "Robert Mondavi (PS) Cabernet Sauvignon, Mont Pellier Merlot, Pure Peru Malbec",
+      "Name" : "Red Wine",
+      "Price" : 7.5,
+      "Weight" : 4
+    },
+    "salchipapas" : {
+      "Category" : "children-menu",
+      "Description" : "Chopped Hot Dog and Golden Fried potatoes.",
+      "Name" : "Salchipapas",
+      "Price" : 5.95,
+      "Weight" : 3
+    },
+    "salsas-picantes-to-go" : {
+      "Category" : "sides",
+      "Description" : "8oz of spicy Peruvian rocoto sauce (mild or hot).",
+      "Name" : "Salsas Picantes (to go)",
+      "Price" : 5.95,
+      "Weight" : 6
+    },
+    "saltado-de-camarones" : {
+      "Category" : "saltados",
+      "Description" : "Shrimp sauté with onions, tomatoes, cilantro mignonette and secret ingredients mixed with French fries, and served with white rice.",
+      "Name" : "Saltado de Camarones",
+      "Price" : 18.95,
+      "Weight" : 5
+    },
+    "saltado-de-mariscos" : {
+      "Category" : "saltados",
+      "Description" : "Seafood sauté with onions, tomatoes, cilantro mignonette and secret ingredients mixed with French fries, and served with white rice.",
+      "Name" : "Saltado de Mariscos",
+      "Price" : 17.95,
+      "Weight" : 6
+    },
+    "saltado-de-vegetales" : {
+      "Category" : "saltados",
+      "Description" : "Mixed veggies seasoned with special Peruvian blend of spices and soy sauce and secret ingredients mixed with French fries, and served with white rice.",
+      "Name" : "Saltado de Vegetales",
+      "Price" : 10.95,
+      "Weight" : 7
+    },
+    "saltado-tumi" : {
+      "Category" : "saltados",
+      "Description" : "Beef loin strips and shrimps sauté with onions, tomatoes, cilantro mignonette and secret ingredients mixed with French fries, and served with white rice. Upgrade to fillet mignon for an additional $5.",
+      "Name" : "Saltado Tumi",
+      "Price" : 17.95,
+      "Weight" : 4
+    },
+    "seco-de-res" : {
+      "Category" : "specialties",
+      "Description" : "Tender pieces of meat slow cooked in Peruvian cilantro sauce. Served with yucca (cassava), Peruvian beans, salsa criolla and served with white rice.",
+      "Name" : "Seco de Res",
+      "Price" : 15.95,
+      "Weight" : 3
+    },
+    "sodas" : {
+      "Category" : "soft-drinks",
+      "Description" : "Coke, Diet Coke, Fanta, Lemonade, Sprite, Unsweetened Ice Tea. Free refill.",
+      "Name" : "Sodas",
+      "Price" : 2,
+      "Weight" : 9
+    },
+    "sopa-de-pollo" : {
+      "Category" : "soups",
+      "Description" : "Chicken Soup with linguini, potatoes, veggies, egg and herbs.",
+      "Name" : "Sopa de Pollo",
+      "Price" : 9.95,
+      "Weight" : 4
+    },
+    "sudado-de-pescado" : {
+      "Category" : "seafood",
+      "Description" : "Peruvian steamed fish fillet seasoned with tomato, garlic, onions, and fruity “aji escabeche” chile, represents a typical way of preparing  sh throughout northern Peru.",
+      "Name" : "Sudado de Pescado",
+      "Price" : 15.95,
+      "Weight" : 7
+    },
+    "tallarin-saltado-de-camarones" : {
+      "Category" : "stir-fry-linguine",
+      "Description" : "Linguine with shrimp sauté with onions and tomatoes, and cilantro mignonette.",
+      "Name" : "Tallarin Saltado de Camarones",
+      "Price" : 18.95,
+      "Weight" : 4
+    },
+    "tallarin-saltado-de-carne" : {
+      "Category" : "stir-fry-linguine",
+      "Description" : "Linguine with Premium beef loin strips sauté with onions, tomatoes and cilantro mignonette. Upgrade to fillet mignon for an additional $5.",
+      "Name" : "Tallarin Saltado de Carne",
+      "Price" : 14.95,
+      "Weight" : 1
+    },
+    "tallarin-saltado-de-mariscos" : {
+      "Category" : "stir-fry-linguine",
+      "Description" : "Linguine with seafood sauté with onions and tomatoes and cilantro mignonette.",
+      "Name" : "Tallarin Saltado De Mariscos",
+      "Price" : 17.95,
+      "Weight" : 3
+    },
+    "tallarin-saltado-de-pollo" : {
+      "Category" : "stir-fry-linguine",
+      "Description" : "Linguine with chicken breast strips stir sauté with onions, tomatoes, and cilantro mignonette.",
+      "Name" : "Tallarin Saltado de Pollo",
+      "Price" : 12.95,
+      "Weight" : 2
+    },
+    "tallarin-verde-con-bistec" : {
+      "Category" : "stir-fry-linguine",
+      "Description" : "Linguine served with Peruvian style sauce made of pesto, basil, spinach, feta cheese, nuts, and accompanied by fried beef loin.",
+      "Name" : "Tallarin Verde con Bistec",
+      "Price" : 15.95,
+      "Weight" : 5
+    },
+    "tostones" : {
+      "Category" : "sides",
+      "Description" : "",
+      "Name" : "Tostones",
+      "Price" : 5.95,
+      "Weight" : 7
+    },
+    "white-rice" : {
+      "Category" : "sides",
+      "Description" : "",
+      "Name" : "White Rice",
+      "Price" : 1.95,
+      "Weight" : 8
+    },
+    "white-wine" : {
+      "Category" : "beverages",
+      "Description" : "Straccali Pinot Grigio, Robert Mondavi (PS) Chardonay, Sivas Sonoma Sauvignon Blanc.",
+      "Name" : "White Wine",
+      "Price" : 7.5,
+      "Weight" : 3
+    },
+    "whole-chicken-dine-in" : {
+      "Category" : "rotisserie-chicken",
+      "Description" : "Our chicken is marinated with 12 unique spices based on the ancient recipe of the ‘Kankacho Andino’. All servings include 2 items: rice, french fries, beans or salad.",
+      "Name" : "Whole Chicken (dine in)",
+      "Price" : 19.95,
+      "Weight" : 1
+    },
+    "whole-chicken-to-go" : {
+      "Category" : "rotisserie-chicken",
+      "Description" : "",
+      "Name" : "Whole Chicken (to go)",
+      "Price" : 16.95,
+      "Weight" : 2
+    },
+    "yucca-frita-con-huancaina" : {
+      "Category" : "appetizers",
+      "Description" : "Deep fried yucca (cassava) served with Huancaina sauce on the side.",
+      "Name" : "Yucca Frita con Huancaina",
+      "Price" : 8.95,
+      "Weight" : 7
+    }
+  }
+}
