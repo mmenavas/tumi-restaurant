@@ -25,6 +25,10 @@ class FoodMenu extends Component {
   componentDidMount() {
     let _this = this;
 
+    // Note: Using orderByChild() requires adding a rule in Firebase Database admin panel and it
+    // requires using forEach() to iterate through snapshot in snapshotToArray(). 
+    // See: https://stackoverflow.com/questions/38345510/firebase-orderbychild-unexpected-results
+
     // Fetch and sort categories.
     firebase.database().ref('categories').orderByChild('Weight').once('value').then((snapshot) => {
       _this.setState({
