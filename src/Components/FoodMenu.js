@@ -93,72 +93,78 @@ class FoodMenu extends Component {
 
   render = () =>
     <div className="food-menu">
-      <h2 className="food-menu__title page-title">
+      <h2 className="food-menu__title">
         Our Food Menu
       </h2>
-      <div className="food-menu__filters">
-        <div className="food-menu__keyword-filter">
-          <Form onSubmit={e => this.handleFormSubmit(e)} >
-            <Search
-              light
-              id="keyword-filter"
-              labelText="Search"
-              onChange={e => this.handleKeywordSearch(e.target.value)}
-              placeholder="Enter a keyword (e.g. chicken)"
-              ref={searchBox => {
-                this.searchBox = searchBox;
-              }}
-            />
-          </Form>
-        </div>
-        <div className="food-menu__categories-control">
-          <Select
-              onChange={(e) => this.handleCategoryChange(e.target.value)}
-              className="some-class"
-              id="category-filter"
-              defaultValue="all"
-              hideLabel
-              light
-            >
-            <SelectItem
-              value="all"
-              text="All categories"
-            />
-            {
-              this.state.categories.map((category, index) =>
-                 <SelectItem key={index} value={category['Id']} text={category['Name']} />
-              )
-            }
-          </Select>
-        </div> 
-        <div className="food-menu__description-control">
-          <Checkbox
-            id="toggle-description"
-            type="checkbox"
-            onChange={() => this.handleToggleDescription()}
-            defaultChecked={this.state.showDescription}
-            labelText="Show description"
-          />
-        </div> 
-      </div>
-      <div className="food-menu__count">{this.state.results.length} items are being displayed.</div>
-      <ul className="food-menu__list">
-        {
-          this.state.categories
-          // Remove empty categories.
-          .filter(item => this.state.results.find(result => result['Category'] === item['Id']))
-          .map((category, index) =>
-            <li key={index} className="food-menu__list-item">
-              <Category
-                name={category['Name']}
-                id={category['Id']}
-                items={this.state.results}
-                showDescription={this.state.showDescription}
+      <div className="food-menu__filters filters">
+        <div className="filters__row-1">
+          <div className="filters__keyword-filter">
+            <Form onSubmit={e => this.handleFormSubmit(e)} >
+              <Search
+                light
+                id="keyword-filter"
+                labelText="Search"
+                onChange={e => this.handleKeywordSearch(e.target.value)}
+                placeholder="Enter a keyword (e.g. chicken)"
+                ref={searchBox => {
+                  this.searchBox = searchBox;
+                }}
               />
-            </li>
-          )
-        }
-      </ul>
+            </Form>
+          </div>
+        </div>
+        <div className="filters__row-2">
+          <div className="filters__category-filter">
+            <Select
+                onChange={(e) => this.handleCategoryChange(e.target.value)}
+                className="some-class"
+                id="category-filter"
+                defaultValue="all"
+                hideLabel
+                light
+              >
+              <SelectItem
+                value="all"
+                text="All categories"
+              />
+              {
+                this.state.categories.map((category, index) =>
+                  <SelectItem key={index} value={category['Id']} text={category['Name']} />
+                )
+              }
+            </Select>
+          </div> 
+          <div className="filters__description-toggle">
+            <Checkbox
+              id="toggle-description"
+              type="checkbox"
+              onChange={() => this.handleToggleDescription()}
+              defaultChecked={this.state.showDescription}
+              labelText="Show description"
+            />
+          </div> 
+          <div className="filters__status">{this.state.results.length} items are being displayed.</div>
+        </div>
+      </div>
+      <div className="food-menu__content">
+        <ul className="food-menu__list">
+          {
+            this.state.categories
+            // Remove empty categories.
+            .filter(item => this.state.results.find(result => result['Category'] === item['Id']))
+            .map((category, index) =>
+              <li key={index} className="food-menu__list-item">
+                <Category
+                  name={category['Name']}
+                  id={category['Id']}
+                  items={this.state.results}
+                  showDescription={this.state.showDescription}
+                />
+              </li>
+            )
+          }
+        </ul>
+      </div>
     </div>
 }
 

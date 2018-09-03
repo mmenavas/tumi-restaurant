@@ -1,9 +1,8 @@
 import React from 'react';
-import { Tile } from 'carbon-components-react';
 import './MenuItem.css';
 
 const MenuItem = props => (
-  <Tile>
+  // <Tile>
     <div className="menu-item">
       <div className="menu-item__header">
         <div className="menu-item__name">
@@ -17,7 +16,7 @@ const MenuItem = props => (
         {props.description}
       </div>
     </div>
-  </Tile>
+  // </Tile>
 
 );
 

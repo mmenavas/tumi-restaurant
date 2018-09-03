@@ -1,46 +1,55 @@
 .food-menu {
-  padding:8px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.food-menu__title {
+  text-align: center;
+  font-size: 2rem;
+  color: #9A7626;
+  margin-top: 20px;
 }
 
 .food-menu__filters {
-  margin-top: 20px; 
+  padding:8px;
+}
+
+.filters__row-2 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
 }
 
-.food-menu__categories-control,
-.food-menu__description-control,
-.food-menu__keyword-filter,
-.food-menu__count {
+.filters__keyword-filter,
+.filters__category-filter,
+.filters__description-toggle,
+.filters__status {
   box-sizing: border-box; 
   padding: 10px 2px;
   width: 100%;
 }
 
-@media screen and (min-width: 420px) {
-  .food-menu__categories-control,
-  .food-menu__description-control {
-    width: 50%;
-    max-width: 240px;
-  }
+.filters__keyword-filter form {
+  border: 1px solid #ccc;
 }
 
-@media screen and (min-width: 616px) {
-  .food-menu__filters {
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.filters__category-filter select {
+  border: 1px solid #ccc;
+  box-shadow: none;
 }
 
-@media screen and (min-width: 1216px) {
-  .food-menu__filters {
-    max-width: 1200px;
+.food-menu__content {
+  padding: 8px;
+} 
+
+@media screen and (min-width: 560px) {
+  .filters__category-filter {
+    flex: 1 1 40%;
   }
-  
-  .food-menu__keyword-filter {
-    max-width: 600px;
-    padding:8px;
+  .filters__description-toggle {
+    flex: 1 1 30%;
+  }
+  .filters__status {
+    flex: 1 1 30%;
   }
 }

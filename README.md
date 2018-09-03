@@ -8,5 +8,6 @@
 - ~~Add description and keywords metatags~~
 - ~~Provide Category filter~~
 - ~~Display search results counter~~
+- ~~Add slideshow~~
 - Render React on the server.
 - Build backend.

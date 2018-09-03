@@ -3,6 +3,7 @@ body {
   padding: 0;
   background-color: #fff; 
   font-family: 'Jaldi', sans-serif;
+  color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -44,3 +45,22 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #CC8B86;
 }
 
+.app__hours {
+  color: #888;
+  border-radius: 5px;
+  text-decoration: none;
+  max-width: 320px;
+  margin: 10px auto 0;
+}
+
+.app__hours strong {
+  padding-right: 4px;
+}
+
+.app__hours li {
+  margin-bottom: 4px;
+}
+
+.app__content {
+  padding-bottom: 40px;
+}

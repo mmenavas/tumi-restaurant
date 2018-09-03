@@ -1,8 +1,8 @@
 .menu-category__name {
-  margin-top: 40px;
-  padding: 2px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 8px;
   font-size: 1.8rem;
-  font-weight: bold;
   color: #9A7626;
 }
 
@@ -14,31 +14,6 @@
 
 .menu-category__list-item {
   box-sizing: border-box;
-  padding: 2px;
   width: 100%;
-}
-
-@media screen and (min-width: 616px) {
-  .menu-category {
-    max-width: 600px;
-    margin: 0 auto;
-
-  }
-  .menu-category__list-item {
-    max-width: 600px;
-    padding: 4px;
-  }
-  .menu-category__name {
-    padding: 4px;
-  }
-}
-
-@media screen and (min-width: 1216px) {
-  .menu-category {
-    max-width: 1200px;
-  }
-  .menu-category__list-item,
-  .menu-category__name {
-    padding: 4px 8px;
-  }
+  margin-bottom: 16px;
 }
