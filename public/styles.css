@@ -1,7 +1,12 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  background-color: #fff; 
+  font-family: 'Jaldi', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
 }
 
 .hide {
@@ -9,10 +14,8 @@ body {
 }
 
 .app__header {
-  background-color: #9a7626;
   padding: 20px 0;
   text-align: center;
-  color: #fff;
 }
 
 .app__title {
@@ -20,12 +23,12 @@ body {
 }
 
 .app__logo {
-  max-width: 120px;
+  max-width: 240px;
 }
 
 .app__info a {
-  color: #fff;
-  border: 1px solid #fff;
+  color: #CC8B86;
+  border: 1px solid #CC8B86;
   border-radius: 5px;
   padding: 10px;
   display: inline-block;
@@ -38,17 +41,6 @@ body {
 .app__info a:focus-within,
 .app__info a:active {
   color: #fff;
-  background-color: #E6B850;
+  background-color: #CC8B86;
 }
 
-.app__content {
-  padding: 20px 0 40px;
-  max-width: 616px;
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 1216px) {
-  .app__content {
-    max-width: 1216px;
-  }  
-}

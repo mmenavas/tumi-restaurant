@@ -1,0 +1,21 @@
+.slide {
+  width: 100%;
+  background-color: #0e0405;
+  padding: 10px 0 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.slide__image {
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.slide__title {
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 616px) {
+
+}

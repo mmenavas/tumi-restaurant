@@ -94,7 +94,7 @@ class FoodMenu extends Component {
   render = () =>
     <div className="food-menu">
       <h2 className="food-menu__title page-title">
-        Menu
+        Our Food Menu
       </h2>
       <div className="food-menu__filters">
         <div className="food-menu__keyword-filter">
