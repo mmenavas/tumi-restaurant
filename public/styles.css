@@ -34,15 +34,28 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px;
   display: inline-block;
   text-decoration: none;
-  margin-top: 10px; 
+  margin-top: 16px; 
 }
 .app__info a:hover,
-.app__info a:visited,
 .app__info a:focus,
 .app__info a:focus-within,
 .app__info a:active {
   color: #fff;
   background-color: #CC8B86;
+}
+
+.app__info a.primary {
+  color: #fff;
+  background-color: #9e3f37;
+  font-size: 1.8rem;
+  padding: 10px 80px;
+}
+.app__info a.primary:hover,
+.app__info a.primary:focus,
+.app__info a.primary:focus-within,
+.app__info a.primary:active {
+  color: #fff;
+  background-color: #842119;
 }
 
 .app__hours {
