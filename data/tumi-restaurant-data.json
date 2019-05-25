@@ -414,7 +414,7 @@
       "Category" : "beverages",
       "Description" : "Pisco is colorless or yellowish-to-amber colored brandy, produced in winemaking regions of Peru. It is made by distilling fermented grape juice into a high-proof spirit. The following mixed drinks are offered at Tumi: Pisco Sour, Pisco Maracuya, Chilcano, and Pisco Mule.",
       "Name" : "Piscos",
-      "Price" : 8.5,
+      "Price" : 9,
       "Weight" : 5
     },
     "platano-frito" : {
@@ -456,7 +456,7 @@
       "Category" : "beverages",
       "Description" : "Robert Mondavi (PS) Cabernet Sauvignon, Mont Pellier Merlot, Pure Peru Malbec",
       "Name" : "Red Wine",
-      "Price" : 7.5,
+      "Price" : 8,
       "Weight" : 4
     },
     "salchipapas" : {
@@ -582,7 +582,7 @@
       "Category" : "beverages",
       "Description" : "Straccali Pinot Grigio, Robert Mondavi (PS) Chardonay, Sivas Sonoma Sauvignon Blanc.",
       "Name" : "White Wine",
-      "Price" : 7.5,
+      "Price" : 8,
       "Weight" : 3
     },
     "whole-chicken-dine-in" : {
@@ -606,5 +606,6 @@
       "Price" : 8.95,
       "Weight" : 7
     }
-  }
+  },
+  "photos" : [ null, "aji-de-gallina.jpg", "ceviche-mixto.jpg", "pescado-a-lo-macho.jpg", null, "saltado-tumi.jpg", "tallarin-saltado-de-carne.jpg", "pisco-sour.jpg", "alfajores.jpg" ]
 }
